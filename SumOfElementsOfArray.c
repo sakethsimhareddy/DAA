@@ -14,11 +14,11 @@ int SumOfArrayElement(int arr[])
 int main() {
     int arr[N],i;
     clock_t start,end;
-    start=clock();
     for(i=0;i<N;i++)
     {
         arr[i]=rand()%999;
     }
+    start=clock();
     printf("sum of array is %d",SumOfArrayElement(arr));
     Sleep(1000);
     end=clock();
