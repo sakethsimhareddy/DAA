@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<windows.h>
-#define N 500
+#define N 5
 int c[N][N];
 void MatrixMultiplication(int a[N][N],int b[N][N])
 {

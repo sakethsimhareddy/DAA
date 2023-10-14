@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<windows.h>
-#define N 10
+#define N 100
 void SelectionSort(int arr[])
 {
     int i,j,minIndex,temp;
