@@ -44,25 +44,26 @@ This repository contains various C programs that demonstrate different data stru
 
 Here's an overview of the space and time complexities for each program:
 
-| Program                    | Time Complexity   | Space Complexity  |
-|----------------------------|-------------------|-------------------|
-| 0_1knapSack.c              | O(n*MaxWeight)    | O(n*MaxWeight)    |
+| Program                     | Time Complexity   | Space Complexity  |
+|-----------------------------|-------------------|-------------------|
+| 0_1knapSack.c               | O(n*MaxWeight)    | O(n*MaxWeight)    |
 | AllPairsShorestPaths.c      | O(n^3)            | O(n^2)            |
 | BreathFristSearch.c         | O(V + E)          | O(V)              |
 | BruteForceClosestpair.c     | O(n^2)            | O(1)              |
 | BruteForceStringMatching.c  | O(n*m)            | O(1)              |
 | BubbleSort.c                | O(n^2)            | O(1)              |
+| convexHull.c                | O(n*h)            | O(h)              |
 | DepthFirstSearch.c          | O(V + E)          | O(V)              |
 | MatrixMultiplication.c      | O(n^3)            | O(n^2)            |
 | MergeSort.c                 | O(n log n)        | O(n)              |
-| NQueens.c                  | O(n!)             | O(n)              |
-| QuickSort.c                 | O(n^2) (worst)     | O(log n)           |
+| NQueens.c                   | O(n!)             | O(n)              |
+| QuickSort.c                 | O(n^2) (worst)    | O(log n)          |
 | SumOfElementsOfArray.c      | O(n)              | O(1)              |
 | SumOfSubSets.c              | O(2^n)            | O(n)              |
-| dijkstra.c                  | O(V^2)             | O(V)              |
-| kruskals.c                 | O(E*log(E))        | O(E)              |
-| primsAlgorithm.c            | O(V^2)             | O(V)              |
-| selection.c                | O(n^2)            | O(1)              |
+| dijkstra.c                  | O(V^2)            | O(V)              |
+| kruskals.c                  | O(E*log(E))       | O(E)              |
+| primsAlgorithm.c            | O(V^2)            | O(V)              |
+| selection.c                 | O(n^2)            | O(1)              |
 
 **Note:** The space and time complexity mentioned here are simplified and may vary based on the specific implementation details and compiler optimizations.
 
