@@ -53,7 +53,7 @@ void nearst_nighbour(int ver)
     }
     from=s;
     sumn=0;
-    for(i=1;j<ver;j++)
+    for(j=1;j<ver;j++)
     {
         min=999;
         for( i = 1; i <= ver; i++)
